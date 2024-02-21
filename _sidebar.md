@@ -1,0 +1,6 @@
+* [Introduction](/)
+* [Interface](navigate_the_interface.md)
+* [How to (Workflow)](workflow.md)
+* [Elements](features.md)
+* [Plugins](plugins.md)
+* [API](pricing.md)

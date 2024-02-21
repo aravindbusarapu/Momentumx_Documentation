@@ -1,0 +1,282 @@
+:root {
+    --theme-color: rgb(255, 255, 255);
+    --mono-hue: 210;
+    --theme-hue: 119;
+    --mono-saturation: 0%;
+    --base-background-color: #121212;
+    --content-max-width: 100em;
+    --link-color: #de5260;
+    /*--base-background-color: rgb(40, 40, 40);
+    --sidebar-background: var(--base-background-color);
+    --navbar-root-border-style: solid;
+    --navbar-menu-box-shadow: rgba(45, 45, 45, 0.05) 0px 0px 1px, rgba(49, 49, 49, 0.05) 0px 1px 2px,
+        rgba(42, 42, 42, 0.05) 0px 2px 4px, rgba(32, 32, 32, 0.05) 0px 4px 8px, rgba(49, 49, 49, 0.05) 0px 8px 16px,
+        rgba(35, 35, 35, 0.05) 0px 16px 32px;
+    --search-background: var(--base-background-color); */
+    /* --search-input-background-color: var(--search-background); */
+    --sidebar-nav-link-font-weight--active: bold;
+    /* --base-font-family: "Inter", sans-serif;
+    /* --sidebar-border-color: rgba(109, 81, 90, 0.699);
+    --search-input-border-color: rgba(109, 81, 90, 0.699); */
+    /*--mono-shade3: hsl(var(--mono-hue), var(--mono-saturation), 20%);
+    --mono-shade2: hsl(var(--mono-hue), var(--mono-saturation), 30%);
+    --mono-shade1: hsl(var(--mono-hue), var(--mono-saturation), 40%);
+    --mono-base: hsl(var(--mono-hue), var(--mono-saturation), 50%);
+    --mono-tint1: hsl(var(--mono-hue), var(--mono-saturation), 70%);
+    --mono-tint2: hsl(var(--mono-hue), var(--mono-saturation), 89%);
+    --mono-tint3: hsl(var(--mono-hue), var(--mono-saturation), 97%); */
+
+    --sidebar-width: 17rem;
+    --heading-h1-border-style: none;
+    --heading-h2-border-style: none;
+    --heading-h1-font-size: 1.7rem;
+    --heading-h2-font-size: 1.5rem;
+    --heading-h3-font-size: 1.2rem;
+    --heading-h1-margin: 0rem 0;
+    --heading-h2-margin: 0.5rem 0 -0.5rem 0;
+    --heading-h3-margin: 0.3rem 0 0rem 0;
+    --header-height: 7vh;
+    --search-input-border-width: 2px 1px 2px 2px;
+
+    --pagination-title-font-size: 0.9rem;
+    --pagination-border-top: none;
+
+    /* --sidebar-nav-link-before-content-l3: "-"; */
+}
+
+.docsify-pagination-container {
+    margin: 0 0 1em;
+}
+a.section-link::before {
+    display: inline-block;
+    content: " - ";
+    width: 1em;
+}
+h3{
+    font-size: 20rem;
+}
+main * {
+    overflow-wrap: break-word;
+    /* margin-top: 10vh; */
+}
+
+.content {
+    width: 100%;
+}
+.features-images{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.exp {
+    font-family: monospace;
+}
+
+.exp li {
+    font-family: var(--base-font-family);
+}
+
+article {
+    /* margin-left: 0 !important;
+    margin-right: 0 !important; */
+    width: 100%;
+    margin-left: 8% !important;
+}
+#upload-your-3d-assets {
+    font-size: 1.2rem;
+}
+.pagination-title-font-size {
+    font-size: 0.2rem;
+}
+@media screen and (max-width: 768px) {
+    article {
+        margin: 0 !important;
+        padding-top: 10vh !important;
+    }
+}
+
+/* @media screen and (max-width: 50em) {
+    :root {
+        --content-max-width: 50em;
+    }
+}
+
+@media screen and (max-width: 55em) and (min-width: 47em) {
+    :root {
+        --content-max-width: 30em;
+    }
+} */
+
+@media screen and (min-width: 40em) {
+    :root {
+        --content-max-width: 70vw;
+    }
+}
+
+body {
+}
+
+.containerdiv {
+    display: grid;
+    grid-template-rows: 8% 92%;
+}
+.image-product {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#landing-page{
+    margin-left: -1rem;
+}
+.features-image{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.navigate-interface-images{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+main {
+    height: 100%;
+    display: block;
+    width: 100%;
+}
+.sidebar {
+    font-size: 0.8rem;
+    font-family: "Crisp Graphik Regular", sans-serif;
+    font-weight: 900 !important;
+    margin-top: var(--header-height);
+    background-color: #0a0a0a;
+}
+.sidebar-toggle-button {
+    margin-top: var(--header-height);
+}
+
+.anchor {
+    /* margin-top: 30px; */
+    /* margin-left: 1px; */
+}
+.image-logo {
+    width: 150px;
+}
+.span-new-product {
+    color: #de5260;
+    /* outline:; */
+}
+
+@media screen and (max-height: 600px) {
+    :root {
+        --header-height: 10vh;
+    }
+}
+
+/* nav {
+    background-color: var(--navbar-background);
+    position: fixed !important;
+   
+    
+    font-size: 1.2rem;
+    
+    /* padding-bottom: 1.5rem; */
+/* margin-right: -1rem; */
+
+/* background-color: rgb(30, 30, 30); */
+
+/* margin-bottom: 1vh; */
+/* } */
+*/ .nav-brand {
+    background-color: aliceblue;
+    padding: 100px;
+    border: 1px solid red;
+}
+.nav-brand-img {
+    margin-right: 200rem;
+    border: 1px solid red;
+}
+.header-brand {
+    z-index: 1;
+    box-sizing: border-box;
+    /* height: fit-content; */
+    height: var(--header-height);
+    --tw-bg-opacity: 1;
+    background-color: #0a0a0a;
+    color: F3F3F3;
+    width: 100%;
+    grid-template-columns: auto auto 1fr auto auto;
+    grid-template-areas: "logo picker.search social";
+    align-items: center;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border: 3px solid #000000; */
+}
+.image-right {
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+.content ul {
+    list-style-type: "▷ " !important;
+}
+
+.sign-in-url {
+    color: #f3f3f3;
+    margin-right: 1rem;
+}
+.about-url {
+    color: #f3f3f3;
+    margin-left: 0.5rem;
+}
+.markdown-section {
+    position: relative;
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: 9rem 45px;
+    display: flex;
+    flex-direction: column;
+}
+p {
+    font-size: 0.9rem;
+
+    margin-left: 20px;
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    padding-top: 0rem;
+    justify-content: center;
+}
+.span-click {
+    color: #de5260;
+}
+
+/* .markdown-section h2 {
+    margin: 0 0;
+    padding: var(--heading-h2-padding, var(--heading-padding));
+    border-width: var(--heading-h2-border-width, 0);
+    border-style: var(--heading-h2-border-style);
+    border-color: var(--heading-h2-border-color);
+    font-family: var(--heading-h2-font-family, var(--heading-font-family));
+    font-size: var(--heading-h2-font-size);
+    font-weight: var(--heading-h2-font-weight, var(--heading-font-weight));
+    line-height: var(--base-line-height);
+    color: var(--heading-h2-color, var(--heading-color));
+
+    margin-top: -10px;
+} */
+#introduction {
+    margin-top: -100px;
+}
+
+/* @media screen and (min-width: 768px) {
+    nav {
+        
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        font-size:1.0rem;
+        
+        
+       
+        
+
+    } */
